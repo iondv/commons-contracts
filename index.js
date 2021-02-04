@@ -1,0 +1,13 @@
+module.exports.resources = require('./contracts/ResourceStorage');
+module.exports.Calculator = require('./contracts/Calculator');
+module.exports.ChangeLogger = require('./contracts/ChangeLogger');
+module.exports.DigitalSignManager = require('./contracts/DigitalSignManager');
+module.exports.EmailSender = require('./contracts/EmailSender');
+module.exports.Iterator = require('./contracts/Iterator');
+module.exports.Logger = require('./contracts/Logger');
+module.exports.NotificationSender = require('./contracts/NotificationSender');
+module.exports.Notifier = require('./contracts/Notifier');
+module.exports.Preprocessor = require('./contracts/Preprocessor');
+module.exports.QueryParser = require('./contracts/QueryParser');
+module.exports.Repository = require('./contracts/Repository');
+module.exports.SettingsRepository = require('./contracts/SettingsRepository');
