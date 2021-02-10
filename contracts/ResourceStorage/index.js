@@ -154,4 +154,6 @@ function ResourceStorage() {
 
 module.exports.ResourceStorage = ResourceStorage;
 module.exports.File = require('./lib/File');
+module.exports.ShareAccessLevel = require('./lib/ShareAccessLevel');
+module.exports.ThumbnailGenerator = require('./lib/ThumbnailGenerator');
 module.exports.Share = require('./lib/Share');
