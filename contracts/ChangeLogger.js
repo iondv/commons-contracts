@@ -2,7 +2,7 @@
  * Created by kras on 28.04.16.
  */
 'use strict';
-const {t} = require('core/i18n');
+const { t } = require('@iondv/i18n');
 
 const logRecordTypes = {
   CREATE: 'CREATE',

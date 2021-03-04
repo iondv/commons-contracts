@@ -16,5 +16,8 @@
     "type": "git"
   },
   "homepage": "https://iondv.com",
-  "version": "2.0.1"
+  "version": "2.0.1",
+  "dependencies": {
+    "@iondv/i18n": "iondv/i18n#semver:^0.0.1"
+  }
 }
