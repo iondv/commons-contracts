@@ -3,26 +3,28 @@
  */
 'use strict';
 
-function File(id, link, options) {
-  this.id = id;
+class File {
+  constructor(id, link, options) {
+    this.id = id;
 
-  this.link = link;
+    this.link = link;
 
-  this.options = options;
+    this.options = options;
 
-  this.name = this.options.name || this.id;
+    this.name = this.options.name || this.id;
+  };
 
   /**
    * @returns {Promise}
    */
-  this.getContents = function () {
+  getContents() {
     return this._getContents();
   };
 
   /**
    * @returns {StoredFile}
    */
-  this.clone = function () {
+  clone() {
     return this._clone();
   };
 }
